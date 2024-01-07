@@ -13,7 +13,7 @@
 </head>
 <body>
     <?php require_once "navigation.php" ?>
-    <main class="container mt-3">
+    <div class="container mt-3">
         <?php 
         if (isset($_GET['page'])) {
             $page_file = "pages/".$_GET["page"].".php";
@@ -27,7 +27,7 @@
             require_once "pages/home.php";
         }
         ?>
-    </main>
+    </div>
 
 
 </body>
