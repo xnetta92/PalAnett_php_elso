@@ -1,0 +1,4 @@
+<h1 class="text-black-65 display-1">Harry Potter Spells</h1>
+<h2 class="text-black-65 display-2">That Every Muggle Must Know</h2>
+<p class="lead text-black-50 ">From Alohomora and Expelliarmus to The Patronus Charm—and, of course, Wingardium Leviosa—we've included a complete Harry Potter spells list below with the series' most notable charms. If you want to continue to learn them on your own, there are also two popular book guides: The Unofficial Ultimate Harry Potter Spellbook and The Unofficial Harry Potter Spellbook. (Similar names, but different, we promise.)</p>
+<img src="img/hp.webp" alt="">
