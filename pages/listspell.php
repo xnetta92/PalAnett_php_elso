@@ -17,7 +17,7 @@
     <?php foreach ($spells as $spell): ?>
         <tr>
             <td><?php echo $spell['id'] ?></td>
-            <td><?php echo '<img src="data:image/jpeg;base64,'.base64_encode($spell['icon']).'"/>';?></td>
+            <td><?php echo '<img src="data:image/png;base64,'.$spell['icon'].'"/>';?></td>
             <td><?php echo $spell['spell'] ?></td>
             <td><?php echo $spell['type'] ?></td>
             <td><?php echo $spell['description'] ?></td>
