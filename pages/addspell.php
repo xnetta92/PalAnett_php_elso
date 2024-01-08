@@ -1,10 +1,10 @@
-<form action="database/spell.php" method="post">
+<form action="database/spell.php" method="post" enctype="multipart/form-data">
         <div class="container">
-            <div class="form-group">
-                <label for="spell_name">Spell name</label>
-                <input type="text" id="spell_name" name="spell_name" required  class="form-control">
+            <div class="form-group mt-3">
+                <label for="spell">Spell name</label>
+                <input type="text" id="spell" name="spell" required  class="form-control">
             </div>
-            <div class="form-group">
+            <div class="form-group mt-3">
                 <label for="type">Type: </label>
                 <select class="form-select" name="type" id="type">
                 <option value="Control">Control</option>
@@ -16,18 +16,18 @@
                 <option value="Utility">Utility</option>
                 </select>
             </div>
-            <div class="form-group">
+            <div class="form-group mt-3">
                 <label for="description" class="form-label">Description:</label>
-                <textarea class="form-control" id="description" rows="3"></textarea>
+                <textarea class="form-control" name="description" id="description" rows="3"></textarea>
             </div>
-            <div class="form-group">
-                <label class="form-label" for="typeNumber">Level:</label>
-                <input value="0" type="number" id="typeNumber" class="form-control" />   
+            <div class="form-group mt-3">
+                <label class="form-label" for="level">Level:</label>
+                <input value="0" type="number" name="level" id="level" class="form-control" />   
             </div>
-            <div class="form-group">
-                <label for="icon" class="form-label">Icon</label>
-                <input class="form-control" type="file" id="icon">
+            <div class="form-group mt-3">
+                <label for="icon" class="form-label">Icon:</label>
+                <input class="form-control" type="file" name="icon" id="icon">
             </div>
-            <button type="submit" class="btn btn-primary">Submit</button>
+            <button type="submit" class="btn btn-primary mt-3">Submit</button>
         </div>
     </form>
